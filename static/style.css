@@ -42,6 +42,7 @@ body, * {
 
 table {
 	margin:auto;
+    width: 100%;
 }
 
 #name {
@@ -159,8 +160,14 @@ table {
   filter: opacity(100%);
 }
 
-.stuff{
-  position: relative;
+.stuff {
+    position: relative;
+}
+
+.stuff img {
+  object-fit: cover;
+  width:270px;
+  height:270px;
 }
 
 .title {
@@ -175,11 +182,6 @@ table {
 }
 
 
-html {
-
-  background-color: rgb(255, 255, 255);
-}
-
 .H {
   color: rgb(0, 0, 0);
   width: 90%;
@@ -188,14 +190,6 @@ html {
   padding-left: 15px;
   font: 40px Avenir, Sans-Serif;
   padding-bottom: 30px;
-}
-table {
-padding-left: 15px;
-padding-right: 15px; 
-}
-
-td {
-padding-left: 5px;
 }
 
 
