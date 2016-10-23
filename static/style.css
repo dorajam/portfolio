@@ -79,6 +79,12 @@ table {
 	margin-bottom: 20px;
 	font-family: "Andale Mono", "Lucida Console", "Courier New", monospace;
 }
+#portfolio-title {
+	color: rgb(102, 102, 102);
+	font-family: "Andale Mono", "Lucida Console", "Courier New", monospace;
+    text-align: left;
+    font-size: 25px;
+}
 
 .menu:hover{
 	opacity: 0.6;
@@ -166,8 +172,9 @@ table {
 
 .stuff img {
   object-fit: cover;
-  width:270px;
-  height:270px;
+  width:320px;
+  height:240px;
+  padding: 6px 6px 6px 6px;
 }
 
 .title {
