@@ -156,8 +156,8 @@ table {
 }
 
 .stuff:hover img{
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
 }
 
 .stuff:hover .title{
@@ -178,16 +178,25 @@ table {
 }
 
 .title {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: white;
-   font: 24px/45px Avenir, Sans-Serif; 
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(102, 102, 102);
+	font-family: "Andale Mono", "Lucida Console", "Courier New", monospace;
   -webkit-filter: opacity(0%);
   filter: opacity(0%);
 }
-
+.title-black {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(250,250,250);
+	font-family: "Andale Mono", "Lucida Console", "Courier New", monospace;
+  -webkit-filter: opacity(0%);
+  filter: opacity(0%);
+}
 
 .H {
   color: rgb(0, 0, 0);
